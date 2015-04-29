@@ -11,4 +11,4 @@ No extra setup is needed as this module adds `<script>` tags to `extended_valid_
 ## Notes
 
 - Only set up to work with the default CMS `HtmlEditorConfig` instance. Copy the approach in `_config.php` to enable it in other config instances;
-- Prevents other `editor.onSaveContent` plugin events firing: as we can’t remove the SilverStripe event that strips the `<script>` tags, we have to simply stop it from running.
+- Prevents other `editor.onSaveContent` plugin events firing: as we can’t remove the SilverStripe event that strips the `<script>` tags (as we don’t have a variable to reference in `ed.onSaveContent.remove()`), we have to simply stop other events from running.
