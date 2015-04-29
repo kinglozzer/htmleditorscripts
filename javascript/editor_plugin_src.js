@@ -28,6 +28,7 @@
 					}
 				});
 
+				// Prevent other onSaveContent events firing
 				return false;
 			});
 		},
