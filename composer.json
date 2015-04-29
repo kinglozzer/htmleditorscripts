@@ -1,0 +1,20 @@
+{
+	"name": "kinglozzer/htmleditorscripts",
+	"description": "Enable <script> tags in SilverStripe’s HtmlEditorField",
+	"type": "silverstripe-module",
+	"homepage": "https://github.com/kinglozzer/htmleditorscripts",
+	"keywords": ["silverstripe", "htmleditorfield", "script", "tags", "javascript"],
+	"authors": [
+		{
+			"name": "Loz Calver",
+			"email": "lozcalver@bigfork.co.uk"
+		}
+	],
+	"license": "BSD-3-Clause",
+	"support": {
+		"issues": "https://github.com/kinglozzer/htmleditorscripts/issues"
+	},
+	"require": {
+		"silverstripe/framework": "~3.1.0"
+	}
+}
